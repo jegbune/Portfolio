@@ -17,7 +17,7 @@ function NavBar() {
 
   return (
     <div className={color? 'header header-bg': 'header'}>
-        <Link to="/Portfoliog">
+        <Link to="/Portfolio">
             <h1>Jeremiah</h1>
         </Link>
         <ul className={click ? 'nav-menu active': 'nav-menu'}>
